@@ -21,25 +21,9 @@ Este proyecto simula un procesador con pipeline de 5 etapas (IF, ID, EX, MEM, WB
 
 ---
 
+## 📂 Estructura del Proyecto
 
 
 
-simulador-pipeline/
-├── main.py
-├── README.md
-├── cpu/
-│   ├── __init__.py
-│   ├── isa.py             # Definición de instrucciones (ISA)
-│   └── pipeline.py        # Implementación del pipeline con hazards
-├── memoria/
-│   ├── __init__.py
-│   └── cache.py           # Simulación de caché (directo y 2-way)
-├── io/
-│   ├── __init__.py
-│   ├── dispositivo.py     # Dispositivo ficticio de entrada de datos
-│   └── interrupciones.py  # Manejador de interrupciones del sistema
-├── tests/
-│   ├── __init__.py
-│   └── benchmark1.py      # Programa de prueba (benchmark simple)
 
 
